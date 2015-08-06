@@ -55,7 +55,6 @@ def scrape_member(url)
     source: url.to_s,
   }
   data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
-  puts data[:image]
   ScraperWiki.save_sqlite([:id, :term], data)
 end
 
