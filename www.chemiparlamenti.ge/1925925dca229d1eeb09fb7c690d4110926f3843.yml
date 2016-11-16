@@ -1,0 +1,39 @@
+---
+request:
+  method: get
+  uri: http://www.chemiparlamenti.ge/en/who/representative/522/leri-xabelovi/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 16 Nov 2016 17:00:29 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Language,Cookie,Accept-Encoding
+    Content-Language:
+    - en
+    Set-Cookie:
+    - django_language=en; Path=/
+    - sessionid=e7203217d4b6f2198dcf31ec3f0a4669; expires=Wed, 30-Nov-2016 17:00:30
+      GMT; Max-Age=1209600; Path=/
+    Content-Length:
+    - '5539'
+    Content-Type:
+    - text/html; charset=utf-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 16 Nov 2016 17:02:42 GMT
