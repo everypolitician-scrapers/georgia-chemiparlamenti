@@ -1,0 +1,39 @@
+---
+request:
+  method: get
+  uri: http://www.chemiparlamenti.ge/en/who/representative/398/eka-beselia/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 16 Nov 2016 16:59:09 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Language,Cookie,Accept-Encoding
+    Content-Language:
+    - en
+    Set-Cookie:
+    - django_language=en; Path=/
+    - sessionid=1c1648dd8c5fd9618820c3b30c6d0588; expires=Wed, 30-Nov-2016 16:59:10
+      GMT; Max-Age=1209600; Path=/
+    Content-Length:
+    - '5561'
+    Content-Type:
+    - text/html; charset=utf-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 16 Nov 2016 17:01:22 GMT
