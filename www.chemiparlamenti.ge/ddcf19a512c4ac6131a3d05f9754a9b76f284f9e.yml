@@ -1,0 +1,39 @@
+---
+request:
+  method: get
+  uri: http://www.chemiparlamenti.ge/en/who/representative/483/pridon-saqvarelize/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 16 Nov 2016 17:03:35 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Language,Cookie,Accept-Encoding
+    Content-Language:
+    - en
+    Set-Cookie:
+    - django_language=en; Path=/
+    - sessionid=5b626d5af1a78c3206a919dc5404c51f; expires=Wed, 30-Nov-2016 17:03:36
+      GMT; Max-Age=1209600; Path=/
+    Content-Length:
+    - '5639'
+    Content-Type:
+    - text/html; charset=utf-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 16 Nov 2016 17:05:48 GMT
