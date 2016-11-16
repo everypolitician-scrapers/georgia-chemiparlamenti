@@ -1,0 +1,39 @@
+---
+request:
+  method: get
+  uri: http://www.chemiparlamenti.ge/en/who/representative/421/nodar-ebanoize/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 16 Nov 2016 17:03:27 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Language,Cookie,Accept-Encoding
+    Content-Language:
+    - en
+    Set-Cookie:
+    - django_language=en; Path=/
+    - sessionid=558c1c359b93251c828e89ef01d99adf; expires=Wed, 30-Nov-2016 17:03:29
+      GMT; Max-Age=1209600; Path=/
+    Content-Length:
+    - '6631'
+    Content-Type:
+    - text/html; charset=utf-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 16 Nov 2016 17:05:41 GMT
