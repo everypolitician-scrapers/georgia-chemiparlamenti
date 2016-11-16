@@ -7,8 +7,9 @@ require 'open-uri'
 require 'colorize'
 
 require 'pry'
-require 'open-uri/cached'
-OpenURI::Cache.cache_path = '.cache'
+# require 'open-uri/cached'
+# OpenURI::Cache.cache_path = '.cache'
+require 'scraped_page_archive/open-uri'
 
 class String
   def tidy
@@ -38,7 +39,7 @@ def scrape_member(url)
   address = contacts.pop
   email = contacts.first.to_s.sub(/^- /,'')
 
-  data = { 
+  data = {
     id: url.to_s[/representative\/(\d+)/, 1],
     name: box.css('div#name').text.tidy,
     image: box.css('div#photo img/@src').text,
