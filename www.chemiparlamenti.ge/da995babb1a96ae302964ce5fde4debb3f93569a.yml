@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 16 Nov 2016 18:01:34 GMT
+    - Thu, 05 Jan 2017 15:36:55 GMT
     Server:
     - Apache
     Vary:
@@ -27,13 +27,13 @@ response:
     - en
     Set-Cookie:
     - django_language=en; Path=/
-    - sessionid=83a713232faed96c9ebdeb333efa0bd9; expires=Wed, 30-Nov-2016 18:01:52
+    - sessionid=3b54cfaad5e4657bf8870662a61452b3; expires=Thu, 19-Jan-2017 15:37:00
       GMT; Max-Age=1209600; Path=/
     Content-Length:
     - '8203'
     Content-Type:
     - text/html; charset=utf-8
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 16 Nov 2016 18:04:04 GMT
+recorded_at: Thu, 05 Jan 2017 15:40:25 GMT
