@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 02 Mar 2017 23:37:48 GMT
+    - Fri, 03 Mar 2017 14:43:18 GMT
     Server:
     - Apache
     Vary:
@@ -27,7 +27,7 @@ response:
     - en
     Set-Cookie:
     - django_language=en; Path=/
-    - sessionid=ae70d19251ce232a3e619fa19ff0fe92; expires=Thu, 16-Mar-2017 23:37:48
+    - sessionid=2c896a391c31ea57424888355bdf3364; expires=Fri, 17-Mar-2017 14:43:19
       GMT; Max-Age=1209600; Path=/
     Content-Length:
     - '5479'
@@ -36,4 +36,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 02 Mar 2017 23:42:39 GMT
+recorded_at: Fri, 03 Mar 2017 14:48:10 GMT
