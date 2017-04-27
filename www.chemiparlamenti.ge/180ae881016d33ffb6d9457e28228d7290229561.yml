@@ -1,0 +1,74 @@
+---
+request:
+  method: get
+  uri: http://www.chemiparlamenti.ge/en/parliamentarian/bidzina-gegidze
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Thu, 27 Apr 2017 21:05:08 GMT
+    Server:
+    - Apache
+    X-Content-Type-Options:
+    - nosniff
+    - nosniff
+    Cache-Control:
+    - max-age=900, public
+    X-Drupal-Dynamic-Cache:
+    - MISS
+    Link:
+    - </en/node/4978>; rel="shortlink"
+    - </en/parliamentarian/bidzina-gegidze>; rel="canonical"
+    - </en/parliamentarian/bidzina-gegidze>; rel="revision"
+    - <http://www.chemiparlamenti.ge/en/parliamentarian/bidzina-gegidze>; rel="alternate";
+      hreflang="en"
+    - <http://www.chemiparlamenti.ge/ka/parliamentarian/bidzina-gegidze>; rel="alternate";
+      hreflang="ka"
+    X-Ua-Compatible:
+    - IE=edge
+    Content-Language:
+    - en
+    X-Frame-Options:
+    - SAMEORIGIN
+    Expires:
+    - Sun, 19 Nov 1978 05:00:00 GMT
+    Last-Modified:
+    - Thu, 27 Apr 2017 15:51:39 GMT
+    Etag:
+    - '"1493308299"'
+    Vary:
+    - Cookie
+    X-Generator:
+    - Drupal 8 (https://www.drupal.org)
+    X-Drupal-Cache:
+    - HIT
+    Content-Type:
+    - text/html; charset=UTF-8
+    X-Varnish:
+    - '6533020'
+    Age:
+    - '0'
+    Via:
+    - 1.1 varnish-v4
+    Transfer-Encoding:
+    - chunked
+    Connection:
+    - keep-alive
+    Accept-Ranges:
+    - bytes
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 27 Apr 2017 21:05:08 GMT
