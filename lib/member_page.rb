@@ -42,6 +42,10 @@ class MemberPage < Scraped::HTML
     area.to_s[/#(\d+)/, 1]
   end
 
+  field :source do
+    url
+  end
+
   private
 
   def box
