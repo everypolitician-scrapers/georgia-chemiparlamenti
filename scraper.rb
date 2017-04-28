@@ -23,4 +23,6 @@ data = scraper(start => MembersPage).member_urls.map do |url|
 end
 
 # data.each { |r| puts r.reject { |k,v| v.to_s.empty? }.sort_by { |k,v| k }.to_h }
+
+ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
 ScraperWiki.save_sqlite(%i[id term], data)
