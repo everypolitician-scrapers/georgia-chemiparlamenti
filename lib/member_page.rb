@@ -26,12 +26,11 @@ class MemberPage < Scraped::HTML
   end
 
   field :start_date do
-    mandate.first
+    mandate[0]
   end
 
   field :end_date do
-    return '' if mandate.last == 'Current'
-    mandate.last
+    mandate[1]
   end
 
   field :area do
