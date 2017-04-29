@@ -17,6 +17,11 @@ class MemberPage < Scraped::HTML
     noko.xpath('//h3[.="Birth Date / Place"]/following::p').map(&:text).map(&:tidy).first[/(\d{4}-\d{2}-\d{2})/, 1]
   end
 
+  # TODO: is there a higher quality version of this?
+  field :image do
+    noko.css('.mp-portrait .imgc img/@src').text
+  end
+
   field :email do
     noko.css('img[src*="sms.png"] + p').text.tidy
   end
