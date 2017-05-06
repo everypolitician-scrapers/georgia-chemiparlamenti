@@ -22,7 +22,7 @@ data = scraper(start => MembersPage).member_urls.map do |url|
   scraper(url => MemberPage).to_h.merge(term: 9)
 end
 
-# data.each { |r| puts r.reject { |k,v| v.to_s.empty? }.sort_by { |k,v| k }.to_h }
+data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if ENV['MORPH_DEBUG']
 
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
 ScraperWiki.save_sqlite(%i[id term], data)
