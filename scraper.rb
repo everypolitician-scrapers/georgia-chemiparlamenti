@@ -46,10 +46,10 @@ class ScraperRun
     @debug = debug
   end
 
-  def save(data)
-    data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if debug
+  def save(rows)
+    rows.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if debug
     ScraperWiki.sqliteexecute('DROP TABLE %s' % table) rescue nil
-    ScraperWiki.save_sqlite(unique_by, data)
+    ScraperWiki.save_sqlite(unique_by, rows)
   end
 
   private
@@ -59,7 +59,7 @@ end
 
 start = 'http://www.chemiparlamenti.ge/en/parliamentarians'
 data = Scraper.new(start => MembersPage).scraped.member_urls.map do |url|
-  Scraper.new(url => MemberPage, :defaults => { term: 9 }).data
+  Scraper.new(url => MemberPage, defaults: { term: 9 }).data
 end
 
-ScraperRun.new(table: 'data', unique_by: %i[id term], debug: ENV['MORPH_DEBUG']).save(data)
+ScraperRun.new(unique_by: %i[id term], debug: ENV['MORPH_DEBUG']).save(data)
