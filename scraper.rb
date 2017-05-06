@@ -40,7 +40,7 @@ end
 class ScraperRun
   require 'scraperwiki'
 
-  def initialize(table: 'data', unique_by: 'id', debug: ENV['MORPH_DEBUG'])
+  def initialize(table: 'data', unique_by: 'id', debug: false)
     @table = table
     @unique_by = unique_by
     @debug = debug
@@ -62,4 +62,4 @@ data = Scraper.new(start => MembersPage).scraped.member_urls.map do |url|
   Scraper.new(url => MemberPage, :defaults => { term: 9 }).data
 end
 
-ScraperRun.new(table: 'data', unique_by: %i[id term]).save(data)
+ScraperRun.new(table: 'data', unique_by: %i[id term], debug: ENV['MORPH_DEBUG']).save(data)
