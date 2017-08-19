@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Fri, 18 Aug 2017 23:35:45 GMT
+    - Sat, 19 Aug 2017 18:49:03 GMT
     Server:
     - Apache
     X-Content-Type-Options:
@@ -57,7 +57,7 @@ response:
     Content-Type:
     - text/html; charset=UTF-8
     X-Varnish:
-    - '6603278'
+    - '15141891'
     Age:
     - '0'
     Via:
@@ -71,4 +71,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 18 Aug 2017 23:35:46 GMT
+recorded_at: Sat, 19 Aug 2017 18:49:03 GMT
