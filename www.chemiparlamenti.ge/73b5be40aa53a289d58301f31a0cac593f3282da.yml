@@ -14,61 +14,32 @@ request:
     - Ruby
 response:
   status:
-    code: 200
-    message: OK
+    code: 302
+    message: Found
   headers:
     Date:
-    - Tue, 28 Nov 2017 13:55:16 GMT
+    - Wed, 29 Nov 2017 01:31:02 GMT
     Server:
     - Apache
     X-Content-Type-Options:
     - nosniff
-    - nosniff
     Cache-Control:
-    - max-age=900, public
-    X-Drupal-Dynamic-Cache:
-    - MISS
-    Link:
-    - </en/node/5144>; rel="shortlink"
-    - </en/parliamentarian/archil-khabadze>; rel="canonical"
-    - </en/parliamentarian/archil-khabadze>; rel="revision"
-    - <http://www.chemiparlamenti.ge/en/parliamentarian/archil-khabadze>; rel="alternate";
-      hreflang="en"
-    - <http://www.chemiparlamenti.ge/ka/parliamentarian/archil-khabadze>; rel="alternate";
-      hreflang="ka"
-    X-Ua-Compatible:
-    - IE=edge
-    Content-Language:
-    - en
-    X-Frame-Options:
-    - SAMEORIGIN
-    Expires:
-    - Sun, 19 Nov 1978 05:00:00 GMT
-    Last-Modified:
-    - Tue, 28 Nov 2017 13:55:16 GMT
-    Etag:
-    - '"1511877316"'
-    Vary:
-    - Cookie
-    X-Generator:
-    - Drupal 8 (https://www.drupal.org)
-    X-Drupal-Cache:
-    - MISS
+    - no-cache, private
+    Location:
+    - "/core/install.php"
+    Content-Length:
+    - '386'
     Content-Type:
     - text/html; charset=UTF-8
     X-Varnish:
-    - '55051333'
+    - '55313210'
     Age:
     - '0'
     Via:
     - 1.1 varnish-v4
-    Transfer-Encoding:
-    - chunked
     Connection:
     - keep-alive
-    Accept-Ranges:
-    - bytes
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 28 Nov 2017 13:55:17 GMT
+recorded_at: Wed, 29 Nov 2017 01:31:35 GMT
