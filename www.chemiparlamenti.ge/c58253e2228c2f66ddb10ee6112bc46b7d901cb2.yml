@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Sun, 07 Jan 2018 00:54:27 GMT
+    - Mon, 08 Jan 2018 04:03:38 GMT
     Server:
     - Apache
     X-Content-Type-Options:
@@ -53,11 +53,11 @@ response:
     X-Generator:
     - Drupal 8 (https://www.drupal.org)
     X-Drupal-Cache:
-    - MISS
+    - HIT
     Content-Type:
     - text/html; charset=UTF-8
     X-Varnish:
-    - '82794112'
+    - '70930872'
     Age:
     - '0'
     Via:
@@ -71,4 +71,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 07 Jan 2018 00:54:28 GMT
+recorded_at: Mon, 08 Jan 2018 04:03:39 GMT
