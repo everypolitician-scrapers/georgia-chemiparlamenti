@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Tue, 09 Jan 2018 12:26:35 GMT
+    - Sun, 14 Jan 2018 20:34:31 GMT
     Server:
     - Apache
     X-Content-Type-Options:
@@ -45,9 +45,9 @@ response:
     Expires:
     - Sun, 19 Nov 1978 05:00:00 GMT
     Last-Modified:
-    - Tue, 09 Jan 2018 12:26:35 GMT
+    - Sun, 14 Jan 2018 20:34:31 GMT
     Etag:
-    - '"1515500795"'
+    - '"1515962071"'
     Vary:
     - Cookie
     X-Generator:
@@ -57,7 +57,7 @@ response:
     Content-Type:
     - text/html; charset=UTF-8
     X-Varnish:
-    - '85371897'
+    - '79707608'
     Age:
     - '0'
     Via:
@@ -71,4 +71,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 09 Jan 2018 12:26:36 GMT
+recorded_at: Sun, 14 Jan 2018 20:34:32 GMT
