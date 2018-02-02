@@ -18,17 +18,17 @@ response:
     message: OK
   headers:
     Date:
-    - Sun, 07 Jan 2018 01:14:04 GMT
+    - Fri, 02 Feb 2018 01:15:12 GMT
     Server:
     - Apache
     X-Content-Type-Options:
     - nosniff
     Content-Length:
-    - '6512'
+    - '6513'
     Content-Type:
     - text/html; charset=UTF-8
     X-Varnish:
-    - '82704449'
+    - '103288487'
     Age:
     - '0'
     Via:
@@ -40,4 +40,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 07 Jan 2018 01:14:42 GMT
+recorded_at: Fri, 02 Feb 2018 01:16:10 GMT
