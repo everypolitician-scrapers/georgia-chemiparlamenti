@@ -14,61 +14,32 @@ request:
     - Ruby
 response:
   status:
-    code: 200
-    message: OK
+    code: 302
+    message: Found
   headers:
     Date:
-    - Wed, 09 May 2018 15:56:11 GMT
+    - Thu, 10 May 2018 01:51:46 GMT
     Server:
     - Apache
     X-Content-Type-Options:
     - nosniff
-    - nosniff
     Cache-Control:
-    - max-age=900, public
-    X-Drupal-Dynamic-Cache:
-    - MISS
-    Link:
-    - </en/node/5018>; rel="shortlink"
-    - </en/parliamentarian/akaki-zoidze>; rel="canonical"
-    - </en/parliamentarian/akaki-zoidze>; rel="revision"
-    - <http://www.chemiparlamenti.ge/en/parliamentarian/akaki-zoidze>; rel="alternate";
-      hreflang="en"
-    - <http://www.chemiparlamenti.ge/ka/parliamentarian/akaki-zoidze>; rel="alternate";
-      hreflang="ka"
-    X-Ua-Compatible:
-    - IE=edge
-    Content-Language:
-    - en
-    X-Frame-Options:
-    - SAMEORIGIN
-    Expires:
-    - Sun, 19 Nov 1978 05:00:00 GMT
-    Last-Modified:
-    - Wed, 09 May 2018 15:56:11 GMT
-    Etag:
-    - '"1525881371"'
-    Vary:
-    - Cookie
-    X-Generator:
-    - Drupal 8 (https://www.drupal.org)
-    X-Drupal-Cache:
-    - MISS
+    - no-cache, private
+    Location:
+    - "/core/install.php"
+    Content-Length:
+    - '386'
     Content-Type:
     - text/html; charset=UTF-8
     X-Varnish:
-    - '84166072'
+    - '84714758'
     Age:
     - '0'
     Via:
     - 1.1 varnish-v4
     Connection:
     - keep-alive
-    Accept-Ranges:
-    - bytes
-    Content-Length:
-    - '35469'
   body:
-    encoding: ASCII-8BIT
+    encoding: UTF-8
   http_version: 
-recorded_at: Wed, 09 May 2018 15:56:12 GMT
+recorded_at: Thu, 10 May 2018 01:52:01 GMT
