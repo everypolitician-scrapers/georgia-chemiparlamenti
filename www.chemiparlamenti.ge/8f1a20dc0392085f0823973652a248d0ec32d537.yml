@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Sun, 27 May 2018 18:05:33 GMT
+    - Mon, 28 May 2018 14:19:09 GMT
     Server:
     - Apache
     X-Content-Type-Options:
@@ -45,19 +45,19 @@ response:
     Expires:
     - Sun, 19 Nov 1978 05:00:00 GMT
     Last-Modified:
-    - Sun, 27 May 2018 07:52:15 GMT
+    - Mon, 28 May 2018 14:19:09 GMT
     Etag:
-    - '"1527407535"'
+    - '"1527517149"'
     Vary:
     - Cookie
     X-Generator:
     - Drupal 8 (https://www.drupal.org)
     X-Drupal-Cache:
-    - HIT
+    - MISS
     Content-Type:
     - text/html; charset=UTF-8
     X-Varnish:
-    - '7707905'
+    - '2820818'
     Age:
     - '0'
     Via:
@@ -71,4 +71,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 27 May 2018 18:05:34 GMT
+recorded_at: Mon, 28 May 2018 14:19:11 GMT
